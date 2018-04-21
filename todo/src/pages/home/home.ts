@@ -56,7 +56,7 @@ export class HomePage {
 						addTodoAlert.onDidDismiss(()=>{
 							let addTodoToast = this.toastController.create({
 								message: "Todo Added",
-								duration: 2000
+								duration: 1000
 							});
 							addTodoToast.present();
 						});
@@ -93,7 +93,7 @@ export class HomePage {
 						editTodoAlert.onDidDismiss(()=>{
 							let editTodoToast = this.toastController.create({
 								message: "Todo Edited",
-								duration: 2000
+								duration: 1000
 							});
 							editTodoToast.present();
 						});
